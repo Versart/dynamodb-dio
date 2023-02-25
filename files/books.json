@@ -1,0 +1,40 @@
+{
+  "Book": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Author": { "S": "Christopher Paolini" },
+          "BookTitle": { "S": "Eragon" },
+          "Year": { "N": 2005 }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Author": { "S": "J K Rowling" },
+          "BookTitle": { "S": "Harry Potter e o Prisioneiro de Azkaban" },
+          "Year": { "N": 2000 }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Author": { "S": "John Piper" },
+          "BookTitle": { "S": "Em Busca de Deus" },
+          "Year": { "N": 2008 }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Author": { "S": "George Orwell" },
+          "BookTitle": { "S": "A revolução dos Bichos" },
+          "Year": { "N": 2007 }
+        }
+      }
+    }
+  ]
+}
